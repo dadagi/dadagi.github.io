@@ -8,7 +8,7 @@
 
 <!-- Navbar (Sits on top) -->
 <div class="w3-top w3-bar w3-white w3-wide w3-padding w3-card">
-<a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
+<a href="#home" class="w3-bar-item w3-button"><b>MDA</b> OFIS</a>
 
 <!-- Float links to the right. Hide them on small screens -->
 <div class="w3-right w3-hide-small">
@@ -27,7 +27,7 @@
 <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="100%">
 <div class="w3-display-middle w3-margin-top w3-center">
 <h1 class="w3-xxlarge w3-text-white w3-wide">
-<span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span>
+<span class="w3-padding w3-black w3-opacity-min"><b>MDA</b></span>
 <span class="w3-hide-small w3-text-light-grey">Architects</span>
 </h1>
 </div>
