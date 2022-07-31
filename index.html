@@ -220,7 +220,7 @@
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
                                     To activate this form, sign up at
-                                    <br />     //FORMU ALACAĞIN BİR LİNK AYARLA yenilenme testi
+                                    <br />     //FORMU ALACAĞIN BİR LİNK AYARLA yenilenme testi 111
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
@@ -251,15 +251,18 @@
         <script>
             function sendEmail(){
                 Email.send({
-                    Host : "smtp.yourisp.com",
-                    Username : "username",
-                    Password : "password",
-                    To : 'them@website.com',
-                    From : "you@isp.com",
-                    Subject : "This is the subject",
-                    Body : "And this is the body"
+                    Host : "smtp.gmail.com",
+                    Username : "mdaemailbot@gmail.com",
+                    Password : "ahmet38ahmet",
+                    To : 'ahmetdadagi@gmail.com',
+                    From : "document.getElementById("email").value,
+                    Subject : "MDA OFİS FORM",
+                    Body : "Name: " +document.getElementById("name").value
+                        + "<br> Email: " + document.getElementById("email").value
+                        + "<br> Phone: " + document.getElementById("phone").value
+                        + "<br> Message: " + document.getElementById("message").value
                 }).then(
-                message => alert(message)
+                message => alert("Message sent successfully")
                 );
             }
         </script>
